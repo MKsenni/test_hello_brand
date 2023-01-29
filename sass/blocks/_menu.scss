@@ -1,0 +1,84 @@
+.menu {
+
+    &__container {
+        @media screen and (max-width: 420px) {
+            margin: 20px auto;
+        }
+        display: flex;
+        margin: 45px auto 90px;
+        max-width: 1168px;
+
+        .list {
+            @media screen and (max-width: 420px) {
+                max-width: 90%;
+            }
+            display: grid;
+            max-width: 40%;
+            color: #000000;
+
+            &__item {
+                border-bottom: 1px solid #E7E7E7;
+                padding: 20px 0;
+
+                .date {
+                    @media screen and (max-width: 420px)  {
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+
+                    padding-bottom: 10px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+
+                .foodName {
+                    @media screen and (max-width: 420px)  {
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 32px;
+
+                    &__space {
+                        width: 28px;
+                        margin: 0 12px;
+                        border-bottom: 5px dotted #D3B47F;
+                    }
+                }
+            }
+        }
+
+        .image {
+
+            @media screen and (max-width: 420px) {
+                display: none;
+            }
+            max-width: 60%;
+
+            &__stairs {
+                position: relative;
+                left: 34px;
+                top: 180px;
+                z-index: 1;
+            }
+
+            &__frame {
+                position: relative;
+                right: 150px;
+                top: 70px;
+                z-index: 0;
+            }
+
+            &__table {
+                position: absolute;
+                right: 320px;
+            }
+        }
+    }
+}

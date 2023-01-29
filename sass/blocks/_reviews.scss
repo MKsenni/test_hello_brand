@@ -1,0 +1,83 @@
+.reviews {
+    @media screen and (max-width: 420px) {
+        max-width: 22.5rem;
+        padding: 35px 20px;
+    }
+    
+    background-color: #3A4574;
+    padding: 220px 0;
+
+    &__container {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1168px;
+
+        .swiper {
+        
+            .swiper-wrapper {
+        
+                .swiper-slide {
+        
+                    .image {
+                        @media screen and (max-width: 420px) {
+                            height: 1.5rem;
+                            width: 1.5rem;
+                        }
+                        margin-bottom: 34px;
+                    }
+            
+                    .text {
+                        text-align: center;
+            
+                        &__title {
+                            @media screen and (max-width: 420px) {
+                                font-size: 1rem;
+                                line-height: 1rem;
+                            }
+        
+                            margin-bottom: 20px;
+                            font-weight: 600;
+                            font-size: 36px;
+                            line-height: 40px;
+                            color: #D3B47F;
+                        }
+            
+                        &__content {
+                            @media screen and (max-width: 420px) {
+                                font-size: 0.8rem;
+                                line-height: 1.3rem;
+                            }
+                            width: 67%;
+                            margin: 0 auto 40px;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 40px;
+                            color: #FFFFFF;
+                        }
+            
+                        &__nameGuest {
+                            @media screen and (max-width: 420px) {
+                                font-size: 0.8rem;
+                                line-height: 1rem;
+                            }
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 40px;
+                            letter-spacing: 0.245em;
+                            color: #D3B47F;
+                        }
+                    }
+                }
+            }
+        
+            .swiper-button-prev, .swiper-button-next {
+                color: #FFFFFF;
+            }
+            
+            .swiper-button-prev:hover, .swiper-button-next:hover {
+                color: #D3B47F;
+            }
+        }
+    }
+}
+
