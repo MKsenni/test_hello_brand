@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, brand!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body class="body">
+    <main class="main">
+        <header class="header">
+            <div class="burgerMenu">
+                <input class="burgerMenu__toggle" id="burgerToggle" type="checkbox">
+                <label class="burgerMenu__btn" for="burgerToggle">
+                    <span></span>
+                </label>
+    
+                <ul class="burgerMenu__list">
+                    <li class="burgerMenu__list-item"><a href="">À la carte</a></li>
+                    <li class="burgerMenu__list-item"><a href="">Wijnkaart</a></li>
+                    <li class="burgerMenu__list-item"><a href="">Lunchmenu</a></li>
+                    <li class="burgerMenu__list-item"><a href="">Contact</a></li>
+                    <li class="burgerMenu__list-item"><a href="tel:+32(9)282-57-25"><img src="./images/call.svg" alt="call">+32 9 282 57 25</a></li>
+                    <li class="burgerMenu__list-item"><a href="" target="_blank"><img src="./images/fb.svg" alt="facebook"></a></li>
+                    <li class="burgerMenu__list-item"><a href="" target="_blank"><img src="./images/ig.svg" alt="instagramm"></a></li>
+                    <li class="burgerMenu__list-item"><a href="" target="_blank"><img src="./images/tw.svg" alt="twitter"></a></li>
+                    <li class="burgerMenu__list-item"><a href="" target="_blank"><img src="./images/yt.svg" alt="yt"></a></li>
+                </ul>
+            </div>
+    
+            <div class="header__container">
+                <img class="emblem" src="./images/emblem.svg" alt="emblem">
+    
+                <div class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__list item"><a href="">À la carte</a></li>
+                        <li class="navigation__list item"><a href="">Wijnkaart</a></li>
+                        <li class="navigation__list item"><a href="">Lunchmenu</a></li>
+                        <li class="navigation__list item"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <div class="call">
+                    <img src="./images/call.svg" alt="call">
+                    <a class="call__number" href="tel:+32(9)282-57-25">+32 9 282 57 25</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="main__container">
+            <span class="mode">OPEN EVERYDAY 6AM - 9PM</span>
+            <h1 class="title">A bad day with lunch is better than a good day without it.</h1>
+            <div class="down">
+                <button class="down__button"><a href="#" id="open_pop-up">Reserve a table</a></button>
+                <div class="pop-up">
+                    <div class="pop-up__container">
+                        <div class="pop-up__body">
+                            <p class="pop-up__body title">Leave your information and we will contact you</p>
+                            <form action="" class="pop-up__body form">
+                                <input class="form__input" type="text" placeholder="Name" name="name" required>
+                                <input class="form__input" type="phone" placeholder="Phone number" name="phone" required>
+                                <button class="form__button" type="submit" name="sub" value="ОТПРАВИТЬ">Reserve a table</button>
+                            </form>
+                            <div id="erconts"></div>
+                            <div class="pop-up-close">&#10006</div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="down__social">
+                    <li><a href="" target="_blank"><img src="./images/fb.svg" alt="facebook"></a></li>
+                    <li><a href="" target="_blank"><img src="./images/ig.svg" alt="instagramm"></a></li>
+                    <li><a href="" target="_blank"><img src="./images/tw.svg" alt="twitter"></a></li>
+                    <li><a href="" target="_blank"><img src="./images/yt.svg" alt="yt"></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </main>
+
+    <section class="menu">
+        <div class="menu__container">
+            <ul class="menu__container list">
+                <li class="list__item">
+                    <h3 class="date">Woensdag 12/01</h3>
+                    <div class="foodName"><span>Salade met Serrano</span><span class="foodName__space"></span><span>Steak Tartaar</span></div>
+                </li>
+                <li class="list__item">
+                    <h3 class="date">Donderdag 13/01</h3>
+                    <div class="foodName"><span>Toast Roquefort</span><span class="foodName__space"></span><span>Penne met Kip en Prei</span></div>
+                </li>
+                <li class="list__item">
+                    <h3 class="date">Vrijdag 14/01</h3>
+                    <div class="foodName"><span>Verrassing van de Chef</span><span class="foodName__space"></span><span>Penne met Kip en Prei</span></div>
+                </li>
+                <li class="list__item">
+                    <h3 class="date">Vrijdag 15/01</h3>
+                    <div class="foodName"><span>Verrassing van de Chef</span><span class="foodName__space"></span><span>Penne met Kip en Prei</span></div>
+                </li>
+                <li class="list__item">
+                    <h3 class="date">Vrijdag 16/01</h3>
+                    <div class="foodName"><span>Verrassing van de Chef</span><span class="foodName__space"></span><span>Penne met Kip en Prei</span></div>
+                </li>
+            </ul>
+
+            <div class="menu__container image">
+                <div><img class="image__stairs" src="./images/stairs.png" alt="stairs"></div>
+                <div><img class="image__frame"  src="./images/frame.svg" alt="frame"></div>
+                <div><img class="image__table"  src="./images/table.png" alt="table"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="reviews__container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="reviews__container image" src="./images/“.svg" alt="image">
+                        <div class="reviews__container text">
+                            <h2 class="text__title">Goede service, lekker eten, toffe ambiance</h2>
+                            <p class="text__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.</p>
+                            <p class="text__nameGuest">ALAIN HEYNDRICKX</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="reviews__container image" src="./images/“.svg" alt="image">
+                        <div class="reviews__container text">
+                            <h2 class="text__title">Goede service, lekker eten, toffe ambiance</h2>
+                            <p class="text__content">Lorem .</p>
+                            <p class="text__nameGuest">ALAIN HEYNDRICKX</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="reviews__container image" src="./images/“.svg" alt="image">
+                        <div class="reviews__container text">
+                            <h2 class="text__title">Goede service, lekker eten, toffe ambiance</h2>
+                            <p class="text__content">Lorem ipsum dolor sit amet.</p>
+                            <p class="text__nameGuest">ALAIN HEYNDRICKX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./modale.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.form__button').click(function(){
+                $.ajax({
+                    type: "POST",
+                    url:"form.php",
+                    data:$('.pop-up__body form').serialize(), 
+                    success: function(result){
+                        $('#erconts').html(result);
+                        checkThis();
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
